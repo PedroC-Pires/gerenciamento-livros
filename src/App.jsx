@@ -70,7 +70,7 @@ return (
       <input
         type="text"
         name="titulo"
-        placeholder="titulo"
+        placeholder="Titulo"
         value={novoLivro.titulo}
         onChange={handleInputChange}
       />
@@ -78,7 +78,7 @@ return (
       <input
         type="text"
         name="editora"
-        placeholder="editora"
+        placeholder="Editora"
         value={novoLivro.editora}
         onChange={handleInputChange}
       />
@@ -86,7 +86,7 @@ return (
       <input
         type="text"
         name="genero"
-        placeholder="genero"
+        placeholder="Genero"
         value={novoLivro.genero}
         onChange={handleInputChange}
       />
